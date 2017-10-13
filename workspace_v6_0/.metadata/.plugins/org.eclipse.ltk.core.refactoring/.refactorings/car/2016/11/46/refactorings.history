@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;car/edge_count.c&apos; to &apos;edge_count.txt&apos;" description="Rename resource &apos;edge_count.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="edge_count.c" name="edge_count.txt" stamp="1478702841837" updateReferences="true"/>
+</session>

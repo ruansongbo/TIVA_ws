@@ -1,0 +1,1 @@
+"./utils/ustdlib.obj" "./utils/uartstdio.obj" "./utils/cpu_usage.obj" "./tm4c123gh6pm_startup_ccs.obj" "./main.obj" "./gps.obj" "./OLED.obj" "../tm4c123gh6pm.cmd" -l"libc.a" -l"C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\ccs\Debug\driverlib.lib" 

@@ -1,0 +1,1 @@
+"./Motor.obj" "./Timer_if.obj" "./encoder.obj" "./main.obj" "./startup_ccs.obj" "./uart_if.obj" "./uartdma.obj" "./udma_if.obj" "../cc3200v1p32.cmd" -llibc.a 

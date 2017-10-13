@@ -1,0 +1,1298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resource.explorer version="1.0" name="TI-RTOS for SimpleLink Wireless MCUs" dir="" href="http://processors.wiki.ti.com/index.php/TI-RTOS">
+
+    <content name="Release Notes" href="C:/ti/tirex-content/tirtos_simplelink_2_01_00_03/tirtos_2_01_00_03_release_notes.html">
+	<type>weblink</type>
+    </content>
+    <content name="TI-RTOS Getting Started Guide" href="C:/ti/tirex-content/tirtos_simplelink_2_01_00_03/docs/tirtos_Getting_Started_Guide.pdf">
+	<type>weblink</type>
+    </content>
+    <content name="TI-RTOS User's Guide" href="C:/ti/tirex-content/tirtos_simplelink_2_01_00_03/docs/tirtos_User_Guide.pdf">
+	<type>weblink</type>
+    </content>
+    <content name="TI-RTOS Kernel User's Guide" href="C:/ti/tirex-content/tirtos_simplelink_2_01_00_03/products/bios_6_40_03_39/docs/Bios_User_Guide.pdf">
+	<type>weblink</type>
+    </content>
+    <content name="TI-RTOS Instrumentation/System Analyzer User's Guide" href="C:/ti/tirex-content/tirtos_simplelink_2_01_00_03/products/uia_2_00_01_34/docs/spruh43f.pdf">
+	<type>weblink</type>
+    </content>
+    <content name="C API Reference (doxygen)" href="C:/ti/tirex-content/tirtos_simplelink_2_01_00_03/docs/doxygen/html/index.html">
+	<type>weblink</type>
+    </content>
+	<contents name="Wireless Connectivity MCU" desc="Wireless Connectivity MCU" icon="plugin://icons/obj16/targetFamily.png">
+		<contents name="CC3200" desc="CC3200" icon="plugin://icons/obj16/target.png">
+				<filter id="filter_3104547940311">
+					<devices><device>ARM</device></devices>
+					<search.tags>
+					<tag>CC3200</tag>
+					<tag>Wireless Connectivity MCU</tag>
+					</search.tags>
+				</filter>
+				<contents name="Driver Examples" desc="TI-RTOS Driver examples" customPageType="genericNote">
+				<filter id="filter_3104547949390">
+					<devices><device>ARM</device></devices>
+					<search.tags>
+					<tag>CC3200</tag>
+					<tag>Wireless Connectivity MCU</tag>
+					<tag>Driver Examples</tag>
+					</search.tags>
+				</filter>
+				<contents name="CC3200 Launchpad" desc="TI-RTOS Projects for CC3200_LP" customPageType="genericNote">
+				<filter id="filter_3104547954522">
+					<devices><device>ARM</device></devices>
+					<search.tags>
+					<tag>CC3200</tag>
+					<tag>Wireless Connectivity MCU</tag>
+					<tag>CC3200 Launchpad</tag>
+					</search.tags>
+				</filter>
+				<contents name="GNU Target Examples" desc="GNU Projects for CC3200_LP" customPageType="genericNote">
+				<filter id="filter_3104547965179">
+					<devices><device>ARM</device></devices>
+					<search.tags>
+					<tag>CC3200</tag>
+					<tag>Wireless Connectivity MCU</tag>
+					<tag>GNU Target Examples</tag>
+					</search.tags>
+				</filter>
+				<contents name="FatFs Examples" desc="FatFs Example Projects for the CC3200_LP" customPageType="genericNote">
+				<filter id="filter_3104547976232">
+					<devices><device>ARM</device></devices>
+					<search.tags>
+					<tag>CC3200</tag>
+					<tag>Wireless Connectivity MCU</tag>
+					<tag>FatFs Examples</tag>
+					</search.tags>
+				</filter>
+				<content name="FatSD Raw" desc="An example using an SDcard with FatFs API calls" href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\driverExamples\cc3200Launchpad\gnuTargetExamples\fatFsExamples\com_ti_rtsc_tirtossimplelink_example_9.projectspec">
+					<filter.ref ref.id="filter_3104547976232"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="fatsdraw_CC3200"/>
+							<attribute key="device.variant" value="Cortex M.CC3200"/>
+						</attributes>
+					</type>
+				</content>
+				</contents>
+				<contents name="GPIO Examples" desc="GPIO Example Projects for the CC3200_LP" customPageType="genericNote">
+				<filter id="filter_3104548093467">
+					<devices><device>ARM</device></devices>
+					<search.tags>
+					<tag>CC3200</tag>
+					<tag>Wireless Connectivity MCU</tag>
+					<tag>GPIO Examples</tag>
+					</search.tags>
+				</filter>
+				<content name="GPIO Interrupt" desc="An example using interrupts to toggle an LED after a button press" href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\driverExamples\cc3200Launchpad\gnuTargetExamples\gpioExamples\com_ti_rtsc_tirtossimplelink_example_10.projectspec">
+					<filter.ref ref.id="filter_3104548093467"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="gpiointerrupt_CC3200"/>
+							<attribute key="device.variant" value="Cortex M.CC3200"/>
+						</attributes>
+					</type>
+				</content>
+				</contents>
+				<contents name="I2C Examples" desc="I2C Example Projects for the CC3200_LP" customPageType="genericNote">
+				<filter id="filter_3104548186229">
+					<devices><device>ARM</device></devices>
+					<search.tags>
+					<tag>CC3200</tag>
+					<tag>Wireless Connectivity MCU</tag>
+					<tag>I2C Examples</tag>
+					</search.tags>
+				</filter>
+				<content name="I2C TMP006" desc="An example on how to use the I2C driver with the TMP006 boosterpack" href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\driverExamples\cc3200Launchpad\gnuTargetExamples\i2CExamples\com_ti_rtsc_tirtossimplelink_example_11.projectspec">
+					<filter.ref ref.id="filter_3104548186229"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="i2ctmp006_CC3200"/>
+							<attribute key="device.variant" value="Cortex M.CC3200"/>
+						</attributes>
+					</type>
+				</content>
+				</contents>
+				<contents name="UART Examples" desc="UART Example Projects for the CC3200_LP" customPageType="genericNote">
+				<filter id="filter_3104548281359">
+					<devices><device>ARM</device></devices>
+					<search.tags>
+					<tag>CC3200</tag>
+					<tag>Wireless Connectivity MCU</tag>
+					<tag>UART Examples</tag>
+					</search.tags>
+				</filter>
+				<content name="UART Echo" desc="Echos characters back using the UART driver" href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\driverExamples\cc3200Launchpad\gnuTargetExamples\uartExamples\com_ti_rtsc_tirtossimplelink_example_12.projectspec">
+					<filter.ref ref.id="filter_3104548281359"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="uartecho_CC3200"/>
+							<attribute key="device.variant" value="Cortex M.CC3200"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="UART Logging" desc="A simple example that sends Log data to the UART" href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\driverExamples\cc3200Launchpad\gnuTargetExamples\uartExamples\com_ti_rtsc_tirtossimplelink_example_13.projectspec">
+					<filter.ref ref.id="filter_3104548281359"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="uartlogging_CC3200"/>
+							<attribute key="device.variant" value="Cortex M.CC3200"/>
+						</attributes>
+					</type>
+				</content>
+				</contents>
+				<contents name="Watchdog Examples" desc="Watchdog Example Projects for the CC3200_LP" customPageType="genericNote">
+				<filter id="filter_3104548405305">
+					<devices><device>ARM</device></devices>
+					<search.tags>
+					<tag>CC3200</tag>
+					<tag>Wireless Connectivity MCU</tag>
+					<tag>Watchdog Examples</tag>
+					</search.tags>
+				</filter>
+				<content name="Watchdog" desc="Watchdog Timer example that services a watchdog until a button press and release" href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\driverExamples\cc3200Launchpad\gnuTargetExamples\watchdogExamples\com_ti_rtsc_tirtossimplelink_example_14.projectspec">
+					<filter.ref ref.id="filter_3104548405305"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="watchdog_CC3200"/>
+							<attribute key="device.variant" value="Cortex M.CC3200"/>
+						</attributes>
+					</type>
+				</content>
+				</contents>
+				</contents>
+				<contents name="TI Target Examples" desc="TI Projects for CC3200_LP" customPageType="genericNote">
+				<filter id="filter_3104548530040">
+					<devices><device>ARM</device></devices>
+					<search.tags>
+					<tag>CC3200</tag>
+					<tag>Wireless Connectivity MCU</tag>
+					<tag>TI Target Examples</tag>
+					</search.tags>
+				</filter>
+				<contents name="FatFs Examples" desc="FatFs Example Projects for the CC3200_LP" customPageType="genericNote">
+				<filter id="filter_3104548543066">
+					<devices><device>ARM</device></devices>
+					<search.tags>
+					<tag>CC3200</tag>
+					<tag>Wireless Connectivity MCU</tag>
+					<tag>FatFs Examples</tag>
+					</search.tags>
+				</filter>
+				<content name="FatSD" desc="An example using an SDcard" href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\driverExamples\cc3200Launchpad\tiTargetExamples\fatFsExamples\com_ti_rtsc_tirtossimplelink_example_2.projectspec">
+					<filter.ref ref.id="filter_3104548543066"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="fatsd_CC3200"/>
+							<attribute key="device.variant" value="Cortex M.CC3200"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="FatSD Raw" desc="An example using an SDcard with FatFs API calls" href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\driverExamples\cc3200Launchpad\tiTargetExamples\fatFsExamples\com_ti_rtsc_tirtossimplelink_example_3.projectspec">
+					<filter.ref ref.id="filter_3104548543066"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="fatsdraw_CC3200"/>
+							<attribute key="device.variant" value="Cortex M.CC3200"/>
+						</attributes>
+					</type>
+				</content>
+				</contents>
+				<contents name="GPIO Examples" desc="GPIO Example Projects for the CC3200_LP" customPageType="genericNote">
+				<filter id="filter_3104548653986">
+					<devices><device>ARM</device></devices>
+					<search.tags>
+					<tag>CC3200</tag>
+					<tag>Wireless Connectivity MCU</tag>
+					<tag>GPIO Examples</tag>
+					</search.tags>
+				</filter>
+				<content name="GPIO Interrupt" desc="An example using interrupts to toggle an LED after a button press" href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\driverExamples\cc3200Launchpad\tiTargetExamples\gpioExamples\com_ti_rtsc_tirtossimplelink_example_4.projectspec">
+					<filter.ref ref.id="filter_3104548653986"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="gpiointerrupt_CC3200"/>
+							<attribute key="device.variant" value="Cortex M.CC3200"/>
+						</attributes>
+					</type>
+				</content>
+				</contents>
+				<contents name="I2C Examples" desc="I2C Example Projects for the CC3200_LP" customPageType="genericNote">
+				<filter id="filter_3104548729379">
+					<devices><device>ARM</device></devices>
+					<search.tags>
+					<tag>CC3200</tag>
+					<tag>Wireless Connectivity MCU</tag>
+					<tag>I2C Examples</tag>
+					</search.tags>
+				</filter>
+				<content name="I2C TMP006" desc="An example on how to use the I2C driver with the TMP006 boosterpack" href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\driverExamples\cc3200Launchpad\tiTargetExamples\i2CExamples\com_ti_rtsc_tirtossimplelink_example_5.projectspec">
+					<filter.ref ref.id="filter_3104548729379"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="i2ctmp006_CC3200"/>
+							<attribute key="device.variant" value="Cortex M.CC3200"/>
+						</attributes>
+					</type>
+				</content>
+				</contents>
+				<contents name="UART Examples" desc="UART Example Projects for the CC3200_LP" customPageType="genericNote">
+				<filter id="filter_3104548814246">
+					<devices><device>ARM</device></devices>
+					<search.tags>
+					<tag>CC3200</tag>
+					<tag>Wireless Connectivity MCU</tag>
+					<tag>UART Examples</tag>
+					</search.tags>
+				</filter>
+				<content name="UART Echo" desc="Echos characters back using the UART driver" href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\driverExamples\cc3200Launchpad\tiTargetExamples\uartExamples\com_ti_rtsc_tirtossimplelink_example_6.projectspec">
+					<filter.ref ref.id="filter_3104548814246"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="uartecho_CC3200"/>
+							<attribute key="device.variant" value="Cortex M.CC3200"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="UART Logging" desc="A simple example that sends Log data to the UART" href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\driverExamples\cc3200Launchpad\tiTargetExamples\uartExamples\com_ti_rtsc_tirtossimplelink_example_7.projectspec">
+					<filter.ref ref.id="filter_3104548814246"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="uartlogging_CC3200"/>
+							<attribute key="device.variant" value="Cortex M.CC3200"/>
+						</attributes>
+					</type>
+				</content>
+				</contents>
+				<contents name="Watchdog Examples" desc="Watchdog Example Projects for the CC3200_LP" customPageType="genericNote">
+				<filter id="filter_3104548922008">
+					<devices><device>ARM</device></devices>
+					<search.tags>
+					<tag>CC3200</tag>
+					<tag>Wireless Connectivity MCU</tag>
+					<tag>Watchdog Examples</tag>
+					</search.tags>
+				</filter>
+				<content name="Watchdog" desc="Watchdog Timer example that services a watchdog until a button press and release" href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\driverExamples\cc3200Launchpad\tiTargetExamples\watchdogExamples\com_ti_rtsc_tirtossimplelink_example_8.projectspec">
+					<filter.ref ref.id="filter_3104548922008"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="watchdog_CC3200"/>
+							<attribute key="device.variant" value="Cortex M.CC3200"/>
+						</attributes>
+					</type>
+				</content>
+				</contents>
+				</contents>
+				</contents>
+				</contents>
+				<contents name="Instrumentation Examples" desc="Instrumentation Example Projects" customPageType="genericNote">
+				<filter id="filter_3104549164768">
+					<devices><device>ARM</device></devices>
+					<search.tags>
+					<tag>CC3200</tag>
+					<tag>Wireless Connectivity MCU</tag>
+					<tag>Instrumentation Examples</tag>
+					</search.tags>
+				</filter>
+				<contents name="GNU Target Examples" desc="System Analyzer (UIA) Examples for GNU targets." customPageType="genericNote">
+				<filter id="filter_3104549173452">
+					<devices><device>ARM</device></devices>
+					<search.tags>
+					<tag>CC3200</tag>
+					<tag>Wireless Connectivity MCU</tag>
+					<tag>GNU Target Examples</tag>
+					</search.tags>
+				</filter>
+				<contents name="Single-core Examples" desc="System Analyzer (UIA) Single-core Examples" customPageType="genericNote">
+				<filter id="filter_3104549184110">
+					<devices><device>ARM</device></devices>
+					<search.tags>
+					<tag>CC3200</tag>
+					<tag>Wireless Connectivity MCU</tag>
+					<tag>Single-core Examples</tag>
+					</search.tags>
+				</filter>
+				<content name="Hello World" desc="A basic example that logs a hello world string that can be viewed using System Analyzer." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\instrumentationExamples\gnuTargetExamples\single_coreExamples\com_ti_rtsc_tirtossimplelink_example_45.projectspec">
+					<filter.ref ref.id="filter_3104549184110"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="helloWorld_CC3200"/>
+							<attribute key="device.variant" value="Cortex M.CC3200"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="Stairstep JTAG StopMode" desc="The stairstep example runs continuously and periodically generates log events. Different threads (Hwi, Swi, Task) run to present a CPU load to the system.  The Log data is obtained when the target is halted.  The sizes of the loggers in LoggingSetup might need to be decreased if your target does not have enough memory." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\instrumentationExamples\gnuTargetExamples\single_coreExamples\com_ti_rtsc_tirtossimplelink_example_46.projectspec">
+					<filter.ref ref.id="filter_3104549184110"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="stairstepStopMode_CC3200"/>
+							<attribute key="device.variant" value="Cortex M.CC3200"/>
+						</attributes>
+					</type>
+				</content>
+				</contents>
+				</contents>
+				<contents name="TI Target Examples" desc="System Analyzer (UIA) Examples for TI targets." customPageType="genericNote">
+				<filter id="filter_3104549336081">
+					<devices><device>ARM</device></devices>
+					<search.tags>
+					<tag>CC3200</tag>
+					<tag>Wireless Connectivity MCU</tag>
+					<tag>TI Target Examples</tag>
+					</search.tags>
+				</filter>
+				<contents name="Single-core Examples" desc="System Analyzer (UIA) Single-core Examples" customPageType="genericNote">
+				<filter id="filter_3104549349897">
+					<devices><device>ARM</device></devices>
+					<search.tags>
+					<tag>CC3200</tag>
+					<tag>Wireless Connectivity MCU</tag>
+					<tag>Single-core Examples</tag>
+					</search.tags>
+				</filter>
+				<content name="Hello World" desc="A basic example that logs a hello world string that can be viewed using System Analyzer." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\instrumentationExamples\tiTargetExamples\single_coreExamples\com_ti_rtsc_tirtossimplelink_example_43.projectspec">
+					<filter.ref ref.id="filter_3104549349897"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="helloWorld_CC3200"/>
+							<attribute key="device.variant" value="Cortex M.CC3200"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="Stairstep JTAG StopMode" desc="The stairstep example runs continuously and periodically generates log events. Different threads (Hwi, Swi, Task) run to present a CPU load to the system.  The Log data is obtained when the target is halted.  The sizes of the loggers in LoggingSetup might need to be decreased if your target does not have enough memory." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\instrumentationExamples\tiTargetExamples\single_coreExamples\com_ti_rtsc_tirtossimplelink_example_44.projectspec">
+					<filter.ref ref.id="filter_3104549349897"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="stairstepStopMode_CC3200"/>
+							<attribute key="device.variant" value="Cortex M.CC3200"/>
+						</attributes>
+					</type>
+				</content>
+				</contents>
+				</contents>
+				</contents>
+				<contents name="Kernel Examples" desc="SYS/BIOS Kernel Templates and Examples" customPageType="genericNote">
+				<filter id="filter_3104549545289">
+					<devices><device>ARM</device></devices>
+					<search.tags>
+					<tag>CC3200</tag>
+					<tag>Wireless Connectivity MCU</tag>
+					<tag>Kernel Examples</tag>
+					</search.tags>
+				</filter>
+				<contents name="GNU Target Examples" desc="SYS/BIOS Kernel Templates and Examples for GNU targets." customPageType="genericNote">
+				<filter id="filter_3104549553578">
+					<devices><device>ARM</device></devices>
+					<search.tags>
+					<tag>CC3200</tag>
+					<tag>Wireless Connectivity MCU</tag>
+					<tag>GNU Target Examples</tag>
+					</search.tags>
+				</filter>
+				<content name="Minimal" desc="This example has a fairly minimal .cfg which is set up for a static application where all objects are defined statically (via configuration tool and/or target structures).  Dynamic memory allocation has been disabled. The .cfg file creates a single task which has a couple of print statements and a Task_sleep() call." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\gnuTargetExamples\com_ti_rtsc_tirtossimplelink_example_29.projectspec">
+					<filter.ref ref.id="filter_3104549553578"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="minimal_CC3200"/>
+							<attribute key="device.variant" value="Cortex M.CC3200"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="Typical" desc="This example has a .cfg populated with a typical set of options and parameters.  This .cfg file is a good starting point for many applications.  Dynamic memory allocation and runtime create of is supported.  Unlike the 'Minimal' example, the single task is created at runtime using the Task_create() API." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\gnuTargetExamples\com_ti_rtsc_tirtossimplelink_example_30.projectspec">
+					<filter.ref ref.id="filter_3104549553578"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="typical_CC3200"/>
+							<attribute key="device.variant" value="Cortex M.CC3200"/>
+						</attributes>
+					</type>
+				</content>
+				<contents name="Generic Examples" desc="Generic SYS/BIOS Examples. These examples are not optimized for code and data memory usage and may not build on platforms with memory constraints." customPageType="genericNote">
+				<filter id="filter_3104549636077">
+					<devices><device>ARM</device></devices>
+					<search.tags>
+					<tag>CC3200</tag>
+					<tag>Wireless Connectivity MCU</tag>
+					<tag>Generic Examples</tag>
+					</search.tags>
+				</filter>
+				<content name="C++ Example (bigtime)" desc="In this program, C++ is used to create a real-time clock/calendar." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\gnuTargetExamples\genericExamples\com_ti_rtsc_tirtossimplelink_example_32.projectspec">
+					<filter.ref ref.id="filter_3104549636077"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="bigtime_CC3200"/>
+							<attribute key="device.variant" value="Cortex M.CC3200"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="Clock Example" desc="The clock example shows how to use the ti.sysbios.knl.Clock module to create one-shot and periodic Clock Instances. Clock Instances are essentially functions that run after a certain number of Clock ticks." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\gnuTargetExamples\genericExamples\com_ti_rtsc_tirtossimplelink_example_33.projectspec">
+					<filter.ref ref.id="filter_3104549636077"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="clock_CC3200"/>
+							<attribute key="device.variant" value="Cortex M.CC3200"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="Error Example" desc="This example shows how to use Error_Blocks to catch runtime errors. An Error_Block is passed to Task_create() and then checked for create failure. When no Error_Block is passed, the application will terminate when an error occurs. The error.cfg file shows how to plug an error hook." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\gnuTargetExamples\genericExamples\com_ti_rtsc_tirtossimplelink_example_34.projectspec">
+					<filter.ref ref.id="filter_3104549636077"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="error_CC3200"/>
+							<attribute key="device.variant" value="Cortex M.CC3200"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="Event Example" desc="The event example shows how to use the ti.sysbios.knl.Event module. The ti.sysbios.knl.Event module solves the 'Wait on Multiple' problem. In this example a reader task waits on several events." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\gnuTargetExamples\genericExamples\com_ti_rtsc_tirtossimplelink_example_35.projectspec">
+					<filter.ref ref.id="filter_3104549636077"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="event_CC3200"/>
+							<attribute key="device.variant" value="Cortex M.CC3200"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="Hello Example" desc="The hello example serves as a basic sanity check program for SYS/BIOS. It demonstrates how to print the string 'hello world' to stdout." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\gnuTargetExamples\genericExamples\com_ti_rtsc_tirtossimplelink_example_36.projectspec">
+					<filter.ref ref.id="filter_3104549636077"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="hello_CC3200"/>
+							<attribute key="device.variant" value="Cortex M.CC3200"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="Log Example" desc="This module shows how to use Log_info(), Log_error() and Log_warning() in a simple application. It shows how to enable USER1 logs for the Task module in the cfg file." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\gnuTargetExamples\genericExamples\com_ti_rtsc_tirtossimplelink_example_37.projectspec">
+					<filter.ref ref.id="filter_3104549636077"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="log_CC3200"/>
+							<attribute key="device.variant" value="Cortex M.CC3200"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="Memory Example" desc="This example shows the use of xdc.runtime.Memory module and different xdc.runtime.IHeap implementations to manage memory. A system heap is created statically using ti.sysbios.heaps.HeapMem." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\gnuTargetExamples\genericExamples\com_ti_rtsc_tirtossimplelink_example_38.projectspec">
+					<filter.ref ref.id="filter_3104549636077"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="memory_CC3200"/>
+							<attribute key="device.variant" value="Cortex M.CC3200"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="Small Example" desc="This simple example uses the Clock module to periodically post a software interrupt (Swi), and increments counters.  The configuration disables non-essential and debug-related SYS/BIOS features to reduce the application memory footprint." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\gnuTargetExamples\genericExamples\com_ti_rtsc_tirtossimplelink_example_40.projectspec">
+					<filter.ref ref.id="filter_3104549636077"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="small_CC3200"/>
+							<attribute key="device.variant" value="Cortex M.CC3200"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="Static Example" desc="The static example focuses on SYS/BIOS configuration. It shows how to use and configure various modules, create static Instances and modify Program level configuration parameters." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\gnuTargetExamples\genericExamples\com_ti_rtsc_tirtossimplelink_example_41.projectspec">
+					<filter.ref ref.id="filter_3104549636077"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="static_CC3200"/>
+							<attribute key="device.variant" value="Cortex M.CC3200"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="Swi Example" desc="The swi example shows how to use the ti.sysbios.knl.Swi module. It demonstrates how the various Swi APIs work." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\gnuTargetExamples\genericExamples\com_ti_rtsc_tirtossimplelink_example_42.projectspec">
+					<filter.ref ref.id="filter_3104549636077"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="swi_CC3200"/>
+							<attribute key="device.variant" value="Cortex M.CC3200"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="Task Mutex Example" desc="This example shows the use of two tasks and one semaphore to protect data access." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\gnuTargetExamples\genericExamples\com_ti_rtsc_tirtossimplelink_example_39.projectspec">
+					<filter.ref ref.id="filter_3104549636077"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="task_CC3200"/>
+							<attribute key="device.variant" value="Cortex M.CC3200"/>
+						</attributes>
+					</type>
+				</content>
+				</contents>
+				</contents>
+				<contents name="TI Target Examples" desc="SYS/BIOS Kernel Templates and Examples for TI targets." customPageType="genericNote">
+				<filter id="filter_3104559972510">
+					<devices><device>ARM</device></devices>
+					<search.tags>
+					<tag>CC3200</tag>
+					<tag>Wireless Connectivity MCU</tag>
+					<tag>TI Target Examples</tag>
+					</search.tags>
+				</filter>
+				<content name="Minimal" desc="This example has a fairly minimal .cfg which is set up for a static application where all objects are defined statically (via configuration tool and/or target structures).  Dynamic memory allocation has been disabled. The .cfg file creates a single task which has a couple of print statements and a Task_sleep() call." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\tiTargetExamples\com_ti_rtsc_tirtossimplelink_example_15.projectspec">
+					<filter.ref ref.id="filter_3104559972510"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="minimal_CC3200"/>
+							<attribute key="device.variant" value="Cortex M.CC3200"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="Typical" desc="This example has a .cfg populated with a typical set of options and parameters.  This .cfg file is a good starting point for many applications.  Dynamic memory allocation and runtime create of is supported.  Unlike the 'Minimal' example, the single task is created at runtime using the Task_create() API." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\tiTargetExamples\com_ti_rtsc_tirtossimplelink_example_16.projectspec">
+					<filter.ref ref.id="filter_3104559972510"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="typical_CC3200"/>
+							<attribute key="device.variant" value="Cortex M.CC3200"/>
+						</attributes>
+					</type>
+				</content>
+				<contents name="Generic Examples" desc="Generic SYS/BIOS Examples. These examples are not optimized for code and data memory usage and may not build on platforms with memory constraints." customPageType="genericNote">
+				<filter id="filter_3104560064088">
+					<devices><device>ARM</device></devices>
+					<search.tags>
+					<tag>CC3200</tag>
+					<tag>Wireless Connectivity MCU</tag>
+					<tag>Generic Examples</tag>
+					</search.tags>
+				</filter>
+				<content name="C++ Example (bigtime)" desc="In this program, C++ is used to create a real-time clock/calendar." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\tiTargetExamples\genericExamples\com_ti_rtsc_tirtossimplelink_example_18.projectspec">
+					<filter.ref ref.id="filter_3104560064088"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="bigtime_CC3200"/>
+							<attribute key="device.variant" value="Cortex M.CC3200"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="Clock Example" desc="The clock example shows how to use the ti.sysbios.knl.Clock module to create one-shot and periodic Clock Instances. Clock Instances are essentially functions that run after a certain number of Clock ticks." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\tiTargetExamples\genericExamples\com_ti_rtsc_tirtossimplelink_example_19.projectspec">
+					<filter.ref ref.id="filter_3104560064088"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="clock_CC3200"/>
+							<attribute key="device.variant" value="Cortex M.CC3200"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="Error Example" desc="This example shows how to use Error_Blocks to catch runtime errors. An Error_Block is passed to Task_create() and then checked for create failure. When no Error_Block is passed, the application will terminate when an error occurs. The error.cfg file shows how to plug an error hook." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\tiTargetExamples\genericExamples\com_ti_rtsc_tirtossimplelink_example_20.projectspec">
+					<filter.ref ref.id="filter_3104560064088"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="error_CC3200"/>
+							<attribute key="device.variant" value="Cortex M.CC3200"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="Event Example" desc="The event example shows how to use the ti.sysbios.knl.Event module. The ti.sysbios.knl.Event module solves the 'Wait on Multiple' problem. In this example a reader task waits on several events." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\tiTargetExamples\genericExamples\com_ti_rtsc_tirtossimplelink_example_21.projectspec">
+					<filter.ref ref.id="filter_3104560064088"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="event_CC3200"/>
+							<attribute key="device.variant" value="Cortex M.CC3200"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="Hello Example" desc="The hello example serves as a basic sanity check program for SYS/BIOS. It demonstrates how to print the string 'hello world' to stdout." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\tiTargetExamples\genericExamples\com_ti_rtsc_tirtossimplelink_example_22.projectspec">
+					<filter.ref ref.id="filter_3104560064088"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="hello_CC3200"/>
+							<attribute key="device.variant" value="Cortex M.CC3200"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="Log Example" desc="This module shows how to use Log_info(), Log_error() and Log_warning() in a simple application. It shows how to enable USER1 logs for the Task module in the cfg file." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\tiTargetExamples\genericExamples\com_ti_rtsc_tirtossimplelink_example_23.projectspec">
+					<filter.ref ref.id="filter_3104560064088"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="log_CC3200"/>
+							<attribute key="device.variant" value="Cortex M.CC3200"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="Memory Example" desc="This example shows the use of xdc.runtime.Memory module and different xdc.runtime.IHeap implementations to manage memory. A system heap is created statically using ti.sysbios.heaps.HeapMem." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\tiTargetExamples\genericExamples\com_ti_rtsc_tirtossimplelink_example_24.projectspec">
+					<filter.ref ref.id="filter_3104560064088"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="memory_CC3200"/>
+							<attribute key="device.variant" value="Cortex M.CC3200"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="Small Example" desc="This simple example uses the Clock module to periodically post a software interrupt (Swi), and increments counters.  The configuration disables non-essential and debug-related SYS/BIOS features to reduce the application memory footprint." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\tiTargetExamples\genericExamples\com_ti_rtsc_tirtossimplelink_example_26.projectspec">
+					<filter.ref ref.id="filter_3104560064088"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="small_CC3200"/>
+							<attribute key="device.variant" value="Cortex M.CC3200"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="Static Example" desc="The static example focuses on SYS/BIOS configuration. It shows how to use and configure various modules, create static Instances and modify Program level configuration parameters." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\tiTargetExamples\genericExamples\com_ti_rtsc_tirtossimplelink_example_27.projectspec">
+					<filter.ref ref.id="filter_3104560064088"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="static_CC3200"/>
+							<attribute key="device.variant" value="Cortex M.CC3200"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="Swi Example" desc="The swi example shows how to use the ti.sysbios.knl.Swi module. It demonstrates how the various Swi APIs work." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\tiTargetExamples\genericExamples\com_ti_rtsc_tirtossimplelink_example_28.projectspec">
+					<filter.ref ref.id="filter_3104560064088"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="swi_CC3200"/>
+							<attribute key="device.variant" value="Cortex M.CC3200"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="Task Mutex Example" desc="This example shows the use of two tasks and one semaphore to protect data access." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\tiTargetExamples\genericExamples\com_ti_rtsc_tirtossimplelink_example_25.projectspec">
+					<filter.ref ref.id="filter_3104560064088"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="task_CC3200"/>
+							<attribute key="device.variant" value="Cortex M.CC3200"/>
+						</attributes>
+					</type>
+				</content>
+				</contents>
+				</contents>
+				</contents>
+		</contents>
+		<contents name="CC3200-SWD" desc="CC3200-SWD" icon="plugin://icons/obj16/target.png">
+				<filter id="filter_3104560913155">
+					<devices><device>ARM</device></devices>
+					<search.tags>
+					<tag>CC3200-SWD</tag>
+					<tag>Wireless Connectivity MCU</tag>
+					</search.tags>
+				</filter>
+				<contents name="Driver Examples" desc="TI-RTOS Driver examples" customPageType="genericNote">
+				<filter id="filter_3104560925392">
+					<devices><device>ARM</device></devices>
+					<search.tags>
+					<tag>CC3200-SWD</tag>
+					<tag>Wireless Connectivity MCU</tag>
+					<tag>Driver Examples</tag>
+					</search.tags>
+				</filter>
+				<contents name="CC3200 Launchpad" desc="TI-RTOS Projects for CC3200_LP" customPageType="genericNote">
+				<filter id="filter_3104560931313">
+					<devices><device>ARM</device></devices>
+					<search.tags>
+					<tag>CC3200-SWD</tag>
+					<tag>Wireless Connectivity MCU</tag>
+					<tag>CC3200 Launchpad</tag>
+					</search.tags>
+				</filter>
+				<contents name="GNU Target Examples" desc="GNU Projects for CC3200_LP" customPageType="genericNote">
+				<filter id="filter_3104560942365">
+					<devices><device>ARM</device></devices>
+					<search.tags>
+					<tag>CC3200-SWD</tag>
+					<tag>Wireless Connectivity MCU</tag>
+					<tag>GNU Target Examples</tag>
+					</search.tags>
+				</filter>
+				<contents name="FatFs Examples" desc="FatFs Example Projects for the CC3200_LP" customPageType="genericNote">
+				<filter id="filter_3104560953023">
+					<devices><device>ARM</device></devices>
+					<search.tags>
+					<tag>CC3200-SWD</tag>
+					<tag>Wireless Connectivity MCU</tag>
+					<tag>FatFs Examples</tag>
+					</search.tags>
+				</filter>
+				<content name="FatSD Raw" desc="An example using an SDcard with FatFs API calls" href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\driverExamples\cc3200Launchpad\gnuTargetExamples\fatFsExamples\com_ti_rtsc_tirtossimplelink_example_9.projectspec">
+					<filter.ref ref.id="filter_3104560953023"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="fatsdraw_CC3200SWD"/>
+							<attribute key="device.variant" value="Cortex M.CC3200-SWD"/>
+						</attributes>
+					</type>
+				</content>
+				</contents>
+				<contents name="GPIO Examples" desc="GPIO Example Projects for the CC3200_LP" customPageType="genericNote">
+				<filter id="filter_3104561046969">
+					<devices><device>ARM</device></devices>
+					<search.tags>
+					<tag>CC3200-SWD</tag>
+					<tag>Wireless Connectivity MCU</tag>
+					<tag>GPIO Examples</tag>
+					</search.tags>
+				</filter>
+				<content name="GPIO Interrupt" desc="An example using interrupts to toggle an LED after a button press" href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\driverExamples\cc3200Launchpad\gnuTargetExamples\gpioExamples\com_ti_rtsc_tirtossimplelink_example_10.projectspec">
+					<filter.ref ref.id="filter_3104561046969"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="gpiointerrupt_CC3200SWD"/>
+							<attribute key="device.variant" value="Cortex M.CC3200-SWD"/>
+						</attributes>
+					</type>
+				</content>
+				</contents>
+				<contents name="I2C Examples" desc="I2C Example Projects for the CC3200_LP" customPageType="genericNote">
+				<filter id="filter_3104561133415">
+					<devices><device>ARM</device></devices>
+					<search.tags>
+					<tag>CC3200-SWD</tag>
+					<tag>Wireless Connectivity MCU</tag>
+					<tag>I2C Examples</tag>
+					</search.tags>
+				</filter>
+				<content name="I2C TMP006" desc="An example on how to use the I2C driver with the TMP006 boosterpack" href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\driverExamples\cc3200Launchpad\gnuTargetExamples\i2CExamples\com_ti_rtsc_tirtossimplelink_example_11.projectspec">
+					<filter.ref ref.id="filter_3104561133415"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="i2ctmp006_CC3200SWD"/>
+							<attribute key="device.variant" value="Cortex M.CC3200-SWD"/>
+						</attributes>
+					</type>
+				</content>
+				</contents>
+				<contents name="UART Examples" desc="UART Example Projects for the CC3200_LP" customPageType="genericNote">
+				<filter id="filter_3104561223019">
+					<devices><device>ARM</device></devices>
+					<search.tags>
+					<tag>CC3200-SWD</tag>
+					<tag>Wireless Connectivity MCU</tag>
+					<tag>UART Examples</tag>
+					</search.tags>
+				</filter>
+				<content name="UART Echo" desc="Echos characters back using the UART driver" href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\driverExamples\cc3200Launchpad\gnuTargetExamples\uartExamples\com_ti_rtsc_tirtossimplelink_example_12.projectspec">
+					<filter.ref ref.id="filter_3104561223019"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="uartecho_CC3200SWD"/>
+							<attribute key="device.variant" value="Cortex M.CC3200-SWD"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="UART Logging" desc="A simple example that sends Log data to the UART" href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\driverExamples\cc3200Launchpad\gnuTargetExamples\uartExamples\com_ti_rtsc_tirtossimplelink_example_13.projectspec">
+					<filter.ref ref.id="filter_3104561223019"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="uartlogging_CC3200SWD"/>
+							<attribute key="device.variant" value="Cortex M.CC3200-SWD"/>
+						</attributes>
+					</type>
+				</content>
+				</contents>
+				<contents name="Watchdog Examples" desc="Watchdog Example Projects for the CC3200_LP" customPageType="genericNote">
+				<filter id="filter_3104561340649">
+					<devices><device>ARM</device></devices>
+					<search.tags>
+					<tag>CC3200-SWD</tag>
+					<tag>Wireless Connectivity MCU</tag>
+					<tag>Watchdog Examples</tag>
+					</search.tags>
+				</filter>
+				<content name="Watchdog" desc="Watchdog Timer example that services a watchdog until a button press and release" href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\driverExamples\cc3200Launchpad\gnuTargetExamples\watchdogExamples\com_ti_rtsc_tirtossimplelink_example_14.projectspec">
+					<filter.ref ref.id="filter_3104561340649"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="watchdog_CC3200SWD"/>
+							<attribute key="device.variant" value="Cortex M.CC3200-SWD"/>
+						</attributes>
+					</type>
+				</content>
+				</contents>
+				</contents>
+				<contents name="TI Target Examples" desc="TI Projects for CC3200_LP" customPageType="genericNote">
+				<filter id="filter_3104561466568">
+					<devices><device>ARM</device></devices>
+					<search.tags>
+					<tag>CC3200-SWD</tag>
+					<tag>Wireless Connectivity MCU</tag>
+					<tag>TI Target Examples</tag>
+					</search.tags>
+				</filter>
+				<contents name="FatFs Examples" desc="FatFs Example Projects for the CC3200_LP" customPageType="genericNote">
+				<filter id="filter_3104561480779">
+					<devices><device>ARM</device></devices>
+					<search.tags>
+					<tag>CC3200-SWD</tag>
+					<tag>Wireless Connectivity MCU</tag>
+					<tag>FatFs Examples</tag>
+					</search.tags>
+				</filter>
+				<content name="FatSD" desc="An example using an SDcard" href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\driverExamples\cc3200Launchpad\tiTargetExamples\fatFsExamples\com_ti_rtsc_tirtossimplelink_example_2.projectspec">
+					<filter.ref ref.id="filter_3104561480779"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="fatsd_CC3200SWD"/>
+							<attribute key="device.variant" value="Cortex M.CC3200-SWD"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="FatSD Raw" desc="An example using an SDcard with FatFs API calls" href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\driverExamples\cc3200Launchpad\tiTargetExamples\fatFsExamples\com_ti_rtsc_tirtossimplelink_example_3.projectspec">
+					<filter.ref ref.id="filter_3104561480779"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="fatsdraw_CC3200SWD"/>
+							<attribute key="device.variant" value="Cortex M.CC3200-SWD"/>
+						</attributes>
+					</type>
+				</content>
+				</contents>
+				<contents name="GPIO Examples" desc="GPIO Example Projects for the CC3200_LP" customPageType="genericNote">
+				<filter id="filter_3104561598409">
+					<devices><device>ARM</device></devices>
+					<search.tags>
+					<tag>CC3200-SWD</tag>
+					<tag>Wireless Connectivity MCU</tag>
+					<tag>GPIO Examples</tag>
+					</search.tags>
+				</filter>
+				<content name="GPIO Interrupt" desc="An example using interrupts to toggle an LED after a button press" href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\driverExamples\cc3200Launchpad\tiTargetExamples\gpioExamples\com_ti_rtsc_tirtossimplelink_example_4.projectspec">
+					<filter.ref ref.id="filter_3104561598409"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="gpiointerrupt_CC3200SWD"/>
+							<attribute key="device.variant" value="Cortex M.CC3200-SWD"/>
+						</attributes>
+					</type>
+				</content>
+				</contents>
+				<contents name="I2C Examples" desc="I2C Example Projects for the CC3200_LP" customPageType="genericNote">
+				<filter id="filter_3104561679328">
+					<devices><device>ARM</device></devices>
+					<search.tags>
+					<tag>CC3200-SWD</tag>
+					<tag>Wireless Connectivity MCU</tag>
+					<tag>I2C Examples</tag>
+					</search.tags>
+				</filter>
+				<content name="I2C TMP006" desc="An example on how to use the I2C driver with the TMP006 boosterpack" href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\driverExamples\cc3200Launchpad\tiTargetExamples\i2CExamples\com_ti_rtsc_tirtossimplelink_example_5.projectspec">
+					<filter.ref ref.id="filter_3104561679328"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="i2ctmp006_CC3200SWD"/>
+							<attribute key="device.variant" value="Cortex M.CC3200-SWD"/>
+						</attributes>
+					</type>
+				</content>
+				</contents>
+				<contents name="UART Examples" desc="UART Example Projects for the CC3200_LP" customPageType="genericNote">
+				<filter id="filter_3104561774459">
+					<devices><device>ARM</device></devices>
+					<search.tags>
+					<tag>CC3200-SWD</tag>
+					<tag>Wireless Connectivity MCU</tag>
+					<tag>UART Examples</tag>
+					</search.tags>
+				</filter>
+				<content name="UART Echo" desc="Echos characters back using the UART driver" href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\driverExamples\cc3200Launchpad\tiTargetExamples\uartExamples\com_ti_rtsc_tirtossimplelink_example_6.projectspec">
+					<filter.ref ref.id="filter_3104561774459"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="uartecho_CC3200SWD"/>
+							<attribute key="device.variant" value="Cortex M.CC3200-SWD"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="UART Logging" desc="A simple example that sends Log data to the UART" href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\driverExamples\cc3200Launchpad\tiTargetExamples\uartExamples\com_ti_rtsc_tirtossimplelink_example_7.projectspec">
+					<filter.ref ref.id="filter_3104561774459"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="uartlogging_CC3200SWD"/>
+							<attribute key="device.variant" value="Cortex M.CC3200-SWD"/>
+						</attributes>
+					</type>
+				</content>
+				</contents>
+				<contents name="Watchdog Examples" desc="Watchdog Example Projects for the CC3200_LP" customPageType="genericNote">
+				<filter id="filter_3104561885378">
+					<devices><device>ARM</device></devices>
+					<search.tags>
+					<tag>CC3200-SWD</tag>
+					<tag>Wireless Connectivity MCU</tag>
+					<tag>Watchdog Examples</tag>
+					</search.tags>
+				</filter>
+				<content name="Watchdog" desc="Watchdog Timer example that services a watchdog until a button press and release" href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\driverExamples\cc3200Launchpad\tiTargetExamples\watchdogExamples\com_ti_rtsc_tirtossimplelink_example_8.projectspec">
+					<filter.ref ref.id="filter_3104561885378"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="watchdog_CC3200SWD"/>
+							<attribute key="device.variant" value="Cortex M.CC3200-SWD"/>
+						</attributes>
+					</type>
+				</content>
+				</contents>
+				</contents>
+				</contents>
+				</contents>
+				<contents name="Instrumentation Examples" desc="Instrumentation Example Projects" customPageType="genericNote">
+				<filter id="filter_3104562123796">
+					<devices><device>ARM</device></devices>
+					<search.tags>
+					<tag>CC3200-SWD</tag>
+					<tag>Wireless Connectivity MCU</tag>
+					<tag>Instrumentation Examples</tag>
+					</search.tags>
+				</filter>
+				<contents name="GNU Target Examples" desc="System Analyzer (UIA) Examples for GNU targets." customPageType="genericNote">
+				<filter id="filter_3104562131296">
+					<devices><device>ARM</device></devices>
+					<search.tags>
+					<tag>CC3200-SWD</tag>
+					<tag>Wireless Connectivity MCU</tag>
+					<tag>GNU Target Examples</tag>
+					</search.tags>
+				</filter>
+				<contents name="Single-core Examples" desc="System Analyzer (UIA) Single-core Examples" customPageType="genericNote">
+				<filter id="filter_3104562141954">
+					<devices><device>ARM</device></devices>
+					<search.tags>
+					<tag>CC3200-SWD</tag>
+					<tag>Wireless Connectivity MCU</tag>
+					<tag>Single-core Examples</tag>
+					</search.tags>
+				</filter>
+				<content name="Hello World" desc="A basic example that logs a hello world string that can be viewed using System Analyzer." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\instrumentationExamples\gnuTargetExamples\single_coreExamples\com_ti_rtsc_tirtossimplelink_example_45.projectspec">
+					<filter.ref ref.id="filter_3104562141954"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="helloWorld_CC3200SWD"/>
+							<attribute key="device.variant" value="Cortex M.CC3200-SWD"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="Stairstep JTAG StopMode" desc="The stairstep example runs continuously and periodically generates log events. Different threads (Hwi, Swi, Task) run to present a CPU load to the system.  The Log data is obtained when the target is halted.  The sizes of the loggers in LoggingSetup might need to be decreased if your target does not have enough memory." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\instrumentationExamples\gnuTargetExamples\single_coreExamples\com_ti_rtsc_tirtossimplelink_example_46.projectspec">
+					<filter.ref ref.id="filter_3104562141954"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="stairstepStopMode_CC3200SWD"/>
+							<attribute key="device.variant" value="Cortex M.CC3200-SWD"/>
+						</attributes>
+					</type>
+				</content>
+				</contents>
+				</contents>
+				<contents name="TI Target Examples" desc="System Analyzer (UIA) Examples for TI targets." customPageType="genericNote">
+				<filter id="filter_3104562289978">
+					<devices><device>ARM</device></devices>
+					<search.tags>
+					<tag>CC3200-SWD</tag>
+					<tag>Wireless Connectivity MCU</tag>
+					<tag>TI Target Examples</tag>
+					</search.tags>
+				</filter>
+				<contents name="Single-core Examples" desc="System Analyzer (UIA) Single-core Examples" customPageType="genericNote">
+				<filter id="filter_3104562303399">
+					<devices><device>ARM</device></devices>
+					<search.tags>
+					<tag>CC3200-SWD</tag>
+					<tag>Wireless Connectivity MCU</tag>
+					<tag>Single-core Examples</tag>
+					</search.tags>
+				</filter>
+				<content name="Hello World" desc="A basic example that logs a hello world string that can be viewed using System Analyzer." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\instrumentationExamples\tiTargetExamples\single_coreExamples\com_ti_rtsc_tirtossimplelink_example_43.projectspec">
+					<filter.ref ref.id="filter_3104562303399"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="helloWorld_CC3200SWD"/>
+							<attribute key="device.variant" value="Cortex M.CC3200-SWD"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="Stairstep JTAG StopMode" desc="The stairstep example runs continuously and periodically generates log events. Different threads (Hwi, Swi, Task) run to present a CPU load to the system.  The Log data is obtained when the target is halted.  The sizes of the loggers in LoggingSetup might need to be decreased if your target does not have enough memory." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\instrumentationExamples\tiTargetExamples\single_coreExamples\com_ti_rtsc_tirtossimplelink_example_44.projectspec">
+					<filter.ref ref.id="filter_3104562303399"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="stairstepStopMode_CC3200SWD"/>
+							<attribute key="device.variant" value="Cortex M.CC3200-SWD"/>
+						</attributes>
+					</type>
+				</content>
+				</contents>
+				</contents>
+				</contents>
+				<contents name="Kernel Examples" desc="SYS/BIOS Kernel Templates and Examples" customPageType="genericNote">
+				<filter id="filter_3104562484580">
+					<devices><device>ARM</device></devices>
+					<search.tags>
+					<tag>CC3200-SWD</tag>
+					<tag>Wireless Connectivity MCU</tag>
+					<tag>Kernel Examples</tag>
+					</search.tags>
+				</filter>
+				<contents name="GNU Target Examples" desc="SYS/BIOS Kernel Templates and Examples for GNU targets." customPageType="genericNote">
+				<filter id="filter_3104562491291">
+					<devices><device>ARM</device></devices>
+					<search.tags>
+					<tag>CC3200-SWD</tag>
+					<tag>Wireless Connectivity MCU</tag>
+					<tag>GNU Target Examples</tag>
+					</search.tags>
+				</filter>
+				<content name="Minimal" desc="This example has a fairly minimal .cfg which is set up for a static application where all objects are defined statically (via configuration tool and/or target structures).  Dynamic memory allocation has been disabled. The .cfg file creates a single task which has a couple of print statements and a Task_sleep() call." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\gnuTargetExamples\com_ti_rtsc_tirtossimplelink_example_29.projectspec">
+					<filter.ref ref.id="filter_3104562491291"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="minimal_CC3200SWD"/>
+							<attribute key="device.variant" value="Cortex M.CC3200-SWD"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="Typical" desc="This example has a .cfg populated with a typical set of options and parameters.  This .cfg file is a good starting point for many applications.  Dynamic memory allocation and runtime create of is supported.  Unlike the 'Minimal' example, the single task is created at runtime using the Task_create() API." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\gnuTargetExamples\com_ti_rtsc_tirtossimplelink_example_30.projectspec">
+					<filter.ref ref.id="filter_3104562491291"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="typical_CC3200SWD"/>
+							<attribute key="device.variant" value="Cortex M.CC3200-SWD"/>
+						</attributes>
+					</type>
+				</content>
+				<contents name="Generic Examples" desc="Generic SYS/BIOS Examples. These examples are not optimized for code and data memory usage and may not build on platforms with memory constraints." customPageType="genericNote">
+				<filter id="filter_3104562567079">
+					<devices><device>ARM</device></devices>
+					<search.tags>
+					<tag>CC3200-SWD</tag>
+					<tag>Wireless Connectivity MCU</tag>
+					<tag>Generic Examples</tag>
+					</search.tags>
+				</filter>
+				<content name="C++ Example (bigtime)" desc="In this program, C++ is used to create a real-time clock/calendar." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\gnuTargetExamples\genericExamples\com_ti_rtsc_tirtossimplelink_example_32.projectspec">
+					<filter.ref ref.id="filter_3104562567079"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="bigtime_CC3200SWD"/>
+							<attribute key="device.variant" value="Cortex M.CC3200-SWD"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="Clock Example" desc="The clock example shows how to use the ti.sysbios.knl.Clock module to create one-shot and periodic Clock Instances. Clock Instances are essentially functions that run after a certain number of Clock ticks." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\gnuTargetExamples\genericExamples\com_ti_rtsc_tirtossimplelink_example_33.projectspec">
+					<filter.ref ref.id="filter_3104562567079"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="clock_CC3200SWD"/>
+							<attribute key="device.variant" value="Cortex M.CC3200-SWD"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="Error Example" desc="This example shows how to use Error_Blocks to catch runtime errors. An Error_Block is passed to Task_create() and then checked for create failure. When no Error_Block is passed, the application will terminate when an error occurs. The error.cfg file shows how to plug an error hook." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\gnuTargetExamples\genericExamples\com_ti_rtsc_tirtossimplelink_example_34.projectspec">
+					<filter.ref ref.id="filter_3104562567079"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="error_CC3200SWD"/>
+							<attribute key="device.variant" value="Cortex M.CC3200-SWD"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="Event Example" desc="The event example shows how to use the ti.sysbios.knl.Event module. The ti.sysbios.knl.Event module solves the 'Wait on Multiple' problem. In this example a reader task waits on several events." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\gnuTargetExamples\genericExamples\com_ti_rtsc_tirtossimplelink_example_35.projectspec">
+					<filter.ref ref.id="filter_3104562567079"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="event_CC3200SWD"/>
+							<attribute key="device.variant" value="Cortex M.CC3200-SWD"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="Hello Example" desc="The hello example serves as a basic sanity check program for SYS/BIOS. It demonstrates how to print the string 'hello world' to stdout." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\gnuTargetExamples\genericExamples\com_ti_rtsc_tirtossimplelink_example_36.projectspec">
+					<filter.ref ref.id="filter_3104562567079"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="hello_CC3200SWD"/>
+							<attribute key="device.variant" value="Cortex M.CC3200-SWD"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="Log Example" desc="This module shows how to use Log_info(), Log_error() and Log_warning() in a simple application. It shows how to enable USER1 logs for the Task module in the cfg file." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\gnuTargetExamples\genericExamples\com_ti_rtsc_tirtossimplelink_example_37.projectspec">
+					<filter.ref ref.id="filter_3104562567079"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="log_CC3200SWD"/>
+							<attribute key="device.variant" value="Cortex M.CC3200-SWD"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="Memory Example" desc="This example shows the use of xdc.runtime.Memory module and different xdc.runtime.IHeap implementations to manage memory. A system heap is created statically using ti.sysbios.heaps.HeapMem." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\gnuTargetExamples\genericExamples\com_ti_rtsc_tirtossimplelink_example_38.projectspec">
+					<filter.ref ref.id="filter_3104562567079"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="memory_CC3200SWD"/>
+							<attribute key="device.variant" value="Cortex M.CC3200-SWD"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="Small Example" desc="This simple example uses the Clock module to periodically post a software interrupt (Swi), and increments counters.  The configuration disables non-essential and debug-related SYS/BIOS features to reduce the application memory footprint." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\gnuTargetExamples\genericExamples\com_ti_rtsc_tirtossimplelink_example_40.projectspec">
+					<filter.ref ref.id="filter_3104562567079"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="small_CC3200SWD"/>
+							<attribute key="device.variant" value="Cortex M.CC3200-SWD"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="Static Example" desc="The static example focuses on SYS/BIOS configuration. It shows how to use and configure various modules, create static Instances and modify Program level configuration parameters." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\gnuTargetExamples\genericExamples\com_ti_rtsc_tirtossimplelink_example_41.projectspec">
+					<filter.ref ref.id="filter_3104562567079"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="static_CC3200SWD"/>
+							<attribute key="device.variant" value="Cortex M.CC3200-SWD"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="Swi Example" desc="The swi example shows how to use the ti.sysbios.knl.Swi module. It demonstrates how the various Swi APIs work." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\gnuTargetExamples\genericExamples\com_ti_rtsc_tirtossimplelink_example_42.projectspec">
+					<filter.ref ref.id="filter_3104562567079"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="swi_CC3200SWD"/>
+							<attribute key="device.variant" value="Cortex M.CC3200-SWD"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="Task Mutex Example" desc="This example shows the use of two tasks and one semaphore to protect data access." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\gnuTargetExamples\genericExamples\com_ti_rtsc_tirtossimplelink_example_39.projectspec">
+					<filter.ref ref.id="filter_3104562567079"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="task_CC3200SWD"/>
+							<attribute key="device.variant" value="Cortex M.CC3200-SWD"/>
+						</attributes>
+					</type>
+				</content>
+				</contents>
+				</contents>
+				<contents name="TI Target Examples" desc="SYS/BIOS Kernel Templates and Examples for TI targets." customPageType="genericNote">
+				<filter id="filter_3104563061283">
+					<devices><device>ARM</device></devices>
+					<search.tags>
+					<tag>CC3200-SWD</tag>
+					<tag>Wireless Connectivity MCU</tag>
+					<tag>TI Target Examples</tag>
+					</search.tags>
+				</filter>
+				<content name="Minimal" desc="This example has a fairly minimal .cfg which is set up for a static application where all objects are defined statically (via configuration tool and/or target structures).  Dynamic memory allocation has been disabled. The .cfg file creates a single task which has a couple of print statements and a Task_sleep() call." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\tiTargetExamples\com_ti_rtsc_tirtossimplelink_example_15.projectspec">
+					<filter.ref ref.id="filter_3104563061283"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="minimal_CC3200SWD"/>
+							<attribute key="device.variant" value="Cortex M.CC3200-SWD"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="Typical" desc="This example has a .cfg populated with a typical set of options and parameters.  This .cfg file is a good starting point for many applications.  Dynamic memory allocation and runtime create of is supported.  Unlike the 'Minimal' example, the single task is created at runtime using the Task_create() API." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\tiTargetExamples\com_ti_rtsc_tirtossimplelink_example_16.projectspec">
+					<filter.ref ref.id="filter_3104563061283"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="typical_CC3200SWD"/>
+							<attribute key="device.variant" value="Cortex M.CC3200-SWD"/>
+						</attributes>
+					</type>
+				</content>
+				<contents name="Generic Examples" desc="Generic SYS/BIOS Examples. These examples are not optimized for code and data memory usage and may not build on platforms with memory constraints." customPageType="genericNote">
+				<filter id="filter_3104563158781">
+					<devices><device>ARM</device></devices>
+					<search.tags>
+					<tag>CC3200-SWD</tag>
+					<tag>Wireless Connectivity MCU</tag>
+					<tag>Generic Examples</tag>
+					</search.tags>
+				</filter>
+				<content name="C++ Example (bigtime)" desc="In this program, C++ is used to create a real-time clock/calendar." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\tiTargetExamples\genericExamples\com_ti_rtsc_tirtossimplelink_example_18.projectspec">
+					<filter.ref ref.id="filter_3104563158781"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="bigtime_CC3200SWD"/>
+							<attribute key="device.variant" value="Cortex M.CC3200-SWD"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="Clock Example" desc="The clock example shows how to use the ti.sysbios.knl.Clock module to create one-shot and periodic Clock Instances. Clock Instances are essentially functions that run after a certain number of Clock ticks." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\tiTargetExamples\genericExamples\com_ti_rtsc_tirtossimplelink_example_19.projectspec">
+					<filter.ref ref.id="filter_3104563158781"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="clock_CC3200SWD"/>
+							<attribute key="device.variant" value="Cortex M.CC3200-SWD"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="Error Example" desc="This example shows how to use Error_Blocks to catch runtime errors. An Error_Block is passed to Task_create() and then checked for create failure. When no Error_Block is passed, the application will terminate when an error occurs. The error.cfg file shows how to plug an error hook." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\tiTargetExamples\genericExamples\com_ti_rtsc_tirtossimplelink_example_20.projectspec">
+					<filter.ref ref.id="filter_3104563158781"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="error_CC3200SWD"/>
+							<attribute key="device.variant" value="Cortex M.CC3200-SWD"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="Event Example" desc="The event example shows how to use the ti.sysbios.knl.Event module. The ti.sysbios.knl.Event module solves the 'Wait on Multiple' problem. In this example a reader task waits on several events." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\tiTargetExamples\genericExamples\com_ti_rtsc_tirtossimplelink_example_21.projectspec">
+					<filter.ref ref.id="filter_3104563158781"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="event_CC3200SWD"/>
+							<attribute key="device.variant" value="Cortex M.CC3200-SWD"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="Hello Example" desc="The hello example serves as a basic sanity check program for SYS/BIOS. It demonstrates how to print the string 'hello world' to stdout." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\tiTargetExamples\genericExamples\com_ti_rtsc_tirtossimplelink_example_22.projectspec">
+					<filter.ref ref.id="filter_3104563158781"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="hello_CC3200SWD"/>
+							<attribute key="device.variant" value="Cortex M.CC3200-SWD"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="Log Example" desc="This module shows how to use Log_info(), Log_error() and Log_warning() in a simple application. It shows how to enable USER1 logs for the Task module in the cfg file." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\tiTargetExamples\genericExamples\com_ti_rtsc_tirtossimplelink_example_23.projectspec">
+					<filter.ref ref.id="filter_3104563158781"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="log_CC3200SWD"/>
+							<attribute key="device.variant" value="Cortex M.CC3200-SWD"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="Memory Example" desc="This example shows the use of xdc.runtime.Memory module and different xdc.runtime.IHeap implementations to manage memory. A system heap is created statically using ti.sysbios.heaps.HeapMem." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\tiTargetExamples\genericExamples\com_ti_rtsc_tirtossimplelink_example_24.projectspec">
+					<filter.ref ref.id="filter_3104563158781"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="memory_CC3200SWD"/>
+							<attribute key="device.variant" value="Cortex M.CC3200-SWD"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="Small Example" desc="This simple example uses the Clock module to periodically post a software interrupt (Swi), and increments counters.  The configuration disables non-essential and debug-related SYS/BIOS features to reduce the application memory footprint." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\tiTargetExamples\genericExamples\com_ti_rtsc_tirtossimplelink_example_26.projectspec">
+					<filter.ref ref.id="filter_3104563158781"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="small_CC3200SWD"/>
+							<attribute key="device.variant" value="Cortex M.CC3200-SWD"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="Static Example" desc="The static example focuses on SYS/BIOS configuration. It shows how to use and configure various modules, create static Instances and modify Program level configuration parameters." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\tiTargetExamples\genericExamples\com_ti_rtsc_tirtossimplelink_example_27.projectspec">
+					<filter.ref ref.id="filter_3104563158781"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="static_CC3200SWD"/>
+							<attribute key="device.variant" value="Cortex M.CC3200-SWD"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="Swi Example" desc="The swi example shows how to use the ti.sysbios.knl.Swi module. It demonstrates how the various Swi APIs work." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\tiTargetExamples\genericExamples\com_ti_rtsc_tirtossimplelink_example_28.projectspec">
+					<filter.ref ref.id="filter_3104563158781"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="swi_CC3200SWD"/>
+							<attribute key="device.variant" value="Cortex M.CC3200-SWD"/>
+						</attributes>
+					</type>
+				</content>
+				<content name="Task Mutex Example" desc="This example shows the use of two tasks and one semaphore to protect data access." href="C:\ti\tirex-content\tirtos_simplelink_2_01_00_03\resources\kernelExamples\tiTargetExamples\genericExamples\com_ti_rtsc_tirtossimplelink_example_25.projectspec">
+					<filter.ref ref.id="filter_3104563158781"/>
+					<type>projectSpec
+						<attributes>
+							<attribute key="project.name" value="task_CC3200SWD"/>
+							<attribute key="device.variant" value="Cortex M.CC3200-SWD"/>
+						</attributes>
+					</type>
+				</content>
+				</contents>
+				</contents>
+				</contents>
+		</contents>
+	</contents>
+
+</resource.explorer>

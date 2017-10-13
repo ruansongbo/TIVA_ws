@@ -1,0 +1,1 @@
+-mv7M4 --code_state=16 --abi=eabi -me -g --gcc --define=ccs --define=cc3200 --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=full -z -m"Car.map" --heap_size=0x0 --stack_size=0x512 --reread_libs --warn_sections --display_error_number --diag_wrap=off --xml_link_info="Car_linkInfo.xml" --rom_model -o "C:/Users/bb/workspace_v6_2/Car/Debug/Car.out"

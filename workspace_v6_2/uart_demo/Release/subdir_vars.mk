@@ -1,0 +1,81 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CMD_SRCS += \
+../cc3200v1p32.cmd 
+
+C_SRCS += \
+../Motor.c \
+../control.c \
+../encoder.c \
+../filter.c \
+../main.c \
+C:/ti/CC3200SDK_1.2.0/cc3200-sdk/example/common/startup_ccs.c \
+C:/ti/CC3200SDK_1.2.0/cc3200-sdk/example/common/timer_if.c \
+C:/ti/CC3200SDK_1.2.0/cc3200-sdk/example/common/uart_if.c \
+../uartdma.c \
+C:/ti/CC3200SDK_1.2.0/cc3200-sdk/example/common/udma_if.c 
+
+OBJS += \
+./Motor.obj \
+./control.obj \
+./encoder.obj \
+./filter.obj \
+./main.obj \
+./startup_ccs.obj \
+./timer_if.obj \
+./uart_if.obj \
+./uartdma.obj \
+./udma_if.obj 
+
+C_DEPS += \
+./Motor.d \
+./control.d \
+./encoder.d \
+./filter.d \
+./main.d \
+./startup_ccs.d \
+./timer_if.d \
+./uart_if.d \
+./uartdma.d \
+./udma_if.d 
+
+C_DEPS__QUOTED += \
+"Motor.d" \
+"control.d" \
+"encoder.d" \
+"filter.d" \
+"main.d" \
+"startup_ccs.d" \
+"timer_if.d" \
+"uart_if.d" \
+"uartdma.d" \
+"udma_if.d" 
+
+OBJS__QUOTED += \
+"Motor.obj" \
+"control.obj" \
+"encoder.obj" \
+"filter.obj" \
+"main.obj" \
+"startup_ccs.obj" \
+"timer_if.obj" \
+"uart_if.obj" \
+"uartdma.obj" \
+"udma_if.obj" 
+
+C_SRCS__QUOTED += \
+"../Motor.c" \
+"../control.c" \
+"../encoder.c" \
+"../filter.c" \
+"../main.c" \
+"C:/ti/CC3200SDK_1.2.0/cc3200-sdk/example/common/startup_ccs.c" \
+"C:/ti/CC3200SDK_1.2.0/cc3200-sdk/example/common/timer_if.c" \
+"C:/ti/CC3200SDK_1.2.0/cc3200-sdk/example/common/uart_if.c" \
+"../uartdma.c" \
+"C:/ti/CC3200SDK_1.2.0/cc3200-sdk/example/common/udma_if.c" 
+
+

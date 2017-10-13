@@ -1,0 +1,31 @@
+
+**** Build of configuration Debug for project SPI ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me --include_path="/include" --include_path="C:/ti/TivaWare_C_Series-2.1.0.12573" -g --define=ccs="ccs" --define=TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM --display_error_number --diag_warning=225 --diag_wrap=off --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+subdir_rules.mk:7: recipe for target 'main.obj' failed
+process_begin: CreateProcess(NULL, "" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me --include_path=/include --include_path=C:/ti/TivaWare_C_Series-2.1.0.12573 -g --define=ccs=ccs --define=TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM --display_error_number --diag_warning=225 --diag_wrap=off --preproc_with_compile --preproc_dependency=main.d ../main.c, ...) failed.
+make (e=87): 参数错误。
+
+gmake: *** [main.obj] Error 87
+'Building file: ../tm4c123gh6pm_startup_ccs.c'
+'Invoking: ARM Compiler'
+"" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me --include_path="/include" --include_path="C:/ti/TivaWare_C_Series-2.1.0.12573" -g --define=ccs="ccs" --define=TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM --display_error_number --diag_warning=225 --diag_wrap=off --preproc_with_compile --preproc_dependency="tm4c123gh6pm_startup_ccs.d"  "../tm4c123gh6pm_startup_ccs.c"
+subdir_rules.mk:14: recipe for target 'tm4c123gh6pm_startup_ccs.obj' failed
+process_begin: CreateProcess(NULL, "" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me --include_path=/include --include_path=C:/ti/TivaWare_C_Series-2.1.0.12573 -g --define=ccs=ccs --define=TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM --display_error_number --diag_warning=225 --diag_wrap=off --preproc_with_compile --preproc_dependency=tm4c123gh6pm_startup_ccs.d ../tm4c123gh6pm_startup_ccs.c, ...) failed.
+make (e=87): 参数错误。
+
+gmake: *** [tm4c123gh6pm_startup_ccs.obj] Error 87
+'Building file: ../utils/uartstdio.c'
+'Invoking: ARM Compiler'
+"" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me --include_path="/include" --include_path="C:/ti/TivaWare_C_Series-2.1.0.12573" -g --define=ccs="ccs" --define=TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM --display_error_number --diag_warning=225 --diag_wrap=off --preproc_with_compile --preproc_dependency="utils/uartstdio.d" --obj_directory="utils"  "../utils/uartstdio.c"
+utils/subdir_rules.mk:7: recipe for target 'utils/uartstdio.obj' failed
+process_begin: CreateProcess(NULL, "" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me --include_path=/include --include_path=C:/ti/TivaWare_C_Series-2.1.0.12573 -g --define=ccs=ccs --define=TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM --display_error_number --diag_warning=225 --diag_wrap=off --preproc_with_compile --preproc_dependency=utils/uartstdio.d --obj_directory=utils ../utils/uartstdio.c, ...) failed.
+make (e=87): 参数错误。
+
+gmake: *** [utils/uartstdio.obj] Error 87
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
